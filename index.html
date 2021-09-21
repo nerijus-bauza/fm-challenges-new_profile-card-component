@@ -5,28 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="container">
+    <img src="./images/bg-pattern-top.svg" alt="" class="bg-top">
+    <img src="./images/bg-pattern-bottom.svg" alt="" class="bg-bottom">
+    
+    <div class="card">
+      <header class="card__header">
+        <img src="./images/image-victor.jpg" alt="profile picture" class="card__header-profile-img">
+      </header>
+      <main class="card__main">
+        <div class="card__main-name">Victor Crest <span class="card__main-age">26</span></div>
+        <div class="card__main-address">London</div>
+      </main>
+      <footer class="card__footer">
+        <div class="card__footer-part">
+          <div class="card__footer-number">80K</div>
+          <div class="card__footer-text">Followers</div>
+        </div>
+        <div class="card__footer-part">
+          <div class="card__footer-number">803K</div>
+          <div class="card__footer-text">Likes</div>
+        </div>
+        <div class="card__footer-part">
+          <div class="card__footer-number">1.4K</div>
+          <div class="card__footer-text">Photos</div>
+        </div>
+      </footer>
+    </div>
+  </div>
+  
+  
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
