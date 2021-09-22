@@ -22,10 +22,10 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Screenshot
 
-- Mobile preview 375x667: 
+- Mobile preview 375x667:<br>
 ![](./screenshots/mobile-screenshot.png)
 
-- Desktop preview 1440x720: 
+- Desktop preview 1440x720:<br>
 ![](./screenshots/desktop-screenshot.png)
 
 ### Links
